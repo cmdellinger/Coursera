@@ -30,11 +30,9 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
-
-
-
-
-
+% resorting to a two line solution. using the hint is throwing errors with ex3
+[values, indices] = max(all_theta * X');
+p = indices';
 
 % =========================================================================
 
